@@ -2,7 +2,7 @@ import glob
 import yara
 
 
-def main():
+def main() -> None:
     rules = load_rules()
     sample_files = find_sample_files()
     identify_files(rules, sample_files)

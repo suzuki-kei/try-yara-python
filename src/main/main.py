@@ -36,5 +36,6 @@ def load_binary_file(file_path: str) -> bytes:
         return file.read()
 
 
-main()
+if __name__ == "__main__":
+    main()
 
